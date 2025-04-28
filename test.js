@@ -1,5 +1,6 @@
 function sayHello(name) {
-  console.log('Hello, ' + name);
+  console.log("Hello, " + name);
 }
 
-sayHello('world');
+sayHello("world");
+sayHello();
