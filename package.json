@@ -9,9 +9,12 @@
     "lint-staged": "^15.5.1",
     "prettier": "^3.5.3"
   },
+  "name": "husky-lintstaged-eslint-prettier-example",
+  "version": "1.0.0",
   "scripts": {
-    "prepare": "husky",
-    "test": "echo \"No tests yet\""
+    "lint": "eslint . --ext .js,.jsx",
+    "format": "prettier --write .",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "**/*.{js,jsx}": [
